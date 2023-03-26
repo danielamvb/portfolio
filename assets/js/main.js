@@ -101,7 +101,7 @@
     $('.video-popup').magnificPopup({
         type: 'iframe', 
         gallery:{
-          enabled:true
+          enabled:true,
         }
       });
 
