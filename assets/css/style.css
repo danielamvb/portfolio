@@ -35,7 +35,9 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #8a8fa3; }
+  color: #8a8fa3; 
+  max-width: 100%;
+  overflow-x: hidden;}
 
 * {
   margin: 0;
@@ -1106,6 +1108,11 @@ p {
       -o-transform: translateX(0);
       transform: translateX(0);
       opacity: 1; }
+
+      .mfp-title {
+        position:absolute;
+        margin-top: 5px;
+      }
 
 /*===========================
        6.PRICING css 
