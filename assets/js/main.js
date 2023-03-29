@@ -98,17 +98,8 @@
       }
     });
 
-    // $('.video-popup').magnificPopup({
-    //     type: 'iframe', 
-    //     gallery:{
-    //       enabled:true,
-    //     }
-    //   });
-
-
     $('.video-popup').magnificPopup({
     type: 'iframe',
-    
     iframe: {
         markup: '<div class="mfp-iframe-scaler">'+
                     '<div class="mfp-close"></div>'+
@@ -120,9 +111,11 @@
         markupParse: function(template, values, item) {
         values.title = item.el.attr('title');
         }
+    },
+    gallery:{
+        enabled:true,
     }
-    
-    
+
     });
     
     
